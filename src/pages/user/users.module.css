@@ -1,0 +1,42 @@
+.hero{
+    height: 100%;
+    width: 100%;
+    font-family: 'jost';
+    padding: 6rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.avatar img{
+    height: 130px;
+    width: 130px;
+}
+.avatar p{
+    font-size: 1.2rem;
+    height: 2rem;
+    width: 10rem;
+    /* background-color: beige; */
+    border: 1px solid gray;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.generate{
+    height: 2rem;
+    width: 10rem;
+    margin-top: 1rem;
+    background-color: black;
+    border-radius: 1rem;
+    outline: none;
+    border: none;
+    color: white;
+    font-family: 'jost';
+    cursor: pointer;
+}
